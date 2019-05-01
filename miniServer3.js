@@ -1,7 +1,5 @@
 "use strict";
 
-const Palindrome = require("./palindrome.js");
-
 const myServer = new (function () {
 	
 	const root = "./public/";
@@ -49,3 +47,7 @@ const myServer = new (function () {
 
 })();
 
+function reverseStr(str) {
+	const result = str + (str.split("").reverse().join(""));
+	return result;
+}
