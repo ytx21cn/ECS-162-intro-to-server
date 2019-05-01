@@ -1,0 +1,26 @@
+{
+  "name": "my-server",
+  "version": "1.0.0",
+  "description": "Intro to server",
+  "main": "js/index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "ls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ytx21cn/ECS-162-intro-to-server.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "ytx21cn",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ytx21cn/ECS-162-intro-to-server/issues"
+  },
+  "homepage": "https://github.com/ytx21cn/ECS-162-intro-to-server#readme"
+}
