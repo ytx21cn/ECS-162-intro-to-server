@@ -13,7 +13,6 @@ const myServer = new (function () {
 		value: function (req, res, next) {
 			let url = req.url;
 			let query = req.query;
-			console.log(query);
 			
 			function reverseStr(str) {
 				const result = str + (str.split("").reverse().join(""));
